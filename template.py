@@ -3,7 +3,7 @@ from pathlib import Path
 import logging
 
 logging.basicConfig(level=logging.INFO, 
-                    format ='[%(asctime)s: %(levelname)s: %(filename)s: %(funcname)s: %(lineno)d %(message)s:]')
+                    format = "[%(asctime)s: %(levelname)s: %(filename)s: %(module)s: %(message)s]")
 
 project_name = "text_summarizer"
 list_of_files = [
