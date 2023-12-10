@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO,
 
 project_name = "text_summarizer"
 list_of_files = [
-                    ".github.com/workflows/.gitkeep",
+                    ".github/workflows/.gitkeep",
                     f"src/{project_name}/__init__.py", #constructor file to consider as local package
                     f"src/{project_name}/components/__init__.py",
                     f"src/{project_name}/utils/__init__.py",
@@ -25,7 +25,6 @@ list_of_files = [
                     "requirements.txt",
                     "setup.py",
                     "expirement/notebook.ipynb"
-
                 ]
 
 
