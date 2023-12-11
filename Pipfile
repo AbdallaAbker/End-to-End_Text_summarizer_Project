@@ -22,8 +22,9 @@ uvicorn = "==0.18.3"
 jinja2 = "==3.1.2"
 sacrebleu = "*"
 matplotlib = "*"
-transformers = {extras = ["sentencepiece"], version = "*"}
 end-to-end-text-summarizer-project = {file = ".", editable = true}
+transformers = "*"
+accelerate = "*"
 
 [dev-packages]
 
