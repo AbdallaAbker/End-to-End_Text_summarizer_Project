@@ -20,9 +20,9 @@ ensure = "==1.0.2"
 fastapi = "==0.78.0"
 uvicorn = "==0.18.3"
 jinja2 = "==3.1.2"
-transformers = {extras = ["sentencepiece"], version = "*"}
 sacrebleu = "*"
 matplotlib = "*"
+transformers = {extras = ["sentencepiece"], version = "*"}
 end-to-end-text-summarizer-project = {file = ".", editable = true}
 
 [dev-packages]
